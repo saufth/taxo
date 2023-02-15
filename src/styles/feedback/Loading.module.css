@@ -1,0 +1,20 @@
+.loading {
+  @apply
+    /* Sizing */
+    w-full
+    h-screen
+    /* Layout */
+    fixed
+    top-0
+    left-0
+    z-70
+    /* Flexbox & Grid */
+    grid
+    place-content-center;
+}
+
+.image {
+  @apply
+    /* Sizing */
+    w-64 md:w-auto
+}

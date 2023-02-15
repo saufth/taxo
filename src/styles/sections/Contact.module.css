@@ -1,0 +1,79 @@
+.section {
+  @apply
+    /* Sizing */
+    max-w-4xl
+    /* Spacing */
+    px-10
+    pt-36 md:pt-48
+    mx-auto
+    space-y-12;
+}
+
+.header {
+  @apply
+    /* Spacing */
+    space-y-2
+    /* Typography */
+    text-left
+    tracking-normal;
+}
+
+.heading {
+  @apply
+    /* Typography */
+    font-humnst777-bold
+
+    text-base md:text-lg;
+}
+
+.description {
+  @apply
+    /* Typography */
+    font-humnst777-bold
+    text-5xl md:text-6xl;
+}
+
+.form {
+  @apply
+    /* Spacing */
+    space-y-8;
+}
+
+.input {
+  @apply
+    /* Sizing */
+    w-full
+    /* Spacing */
+    px-4 py-3
+    /* Typography */
+    font-humnst777-bold
+    /* Baxkground */
+    bg-zinc-200
+    /* Border */
+    rounded-xl
+    /* Interactivity */
+    resize-none;
+}
+
+.submit {
+  @apply
+    /* Sizing */
+    w-64
+    h-12
+    /* Typography */
+    font-humnst777-bold
+    text-white
+    /* Background */
+    bg-primary
+    /* Border */
+    rounded-3xl;
+}
+
+.options {
+  @apply
+    /* Spacing */
+    pt-6
+    /* Flexbox & Grid */
+    flex
+    justify-center;
+}

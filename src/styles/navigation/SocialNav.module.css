@@ -1,0 +1,7 @@
+.social {
+  @apply
+    /* Flexbox & Grid */
+    flex
+    justify-center
+    gap-x-5 md:gap-x-3;
+}

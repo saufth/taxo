@@ -1,0 +1,18 @@
+.link {
+  @apply
+    /* Sizing */
+    w-64
+    h-12
+    /* Flexbox & Grid */
+    grid
+    place-content-center
+    /* Typography */
+    font-humnst777-bold
+    md:text-[19px]
+    tracking-wide
+    text-secondary
+    /* Background */
+    bg-white
+    /* Border */
+    rounded-sm;
+}

@@ -1,0 +1,84 @@
+.container {
+  @apply
+    /* Sizing */
+    h-auto md:h-md lg:h-xl
+    [&>div]:w-full [&>div]:md:w-1/2
+    [&>div]:h-auto [&>div]:md:h-full
+    /* Spacing */
+    mx-auto
+    /* Flexbox & Grid */
+    flex
+    flex-col-reverse md:flex-row
+    md:gap-x-6
+    gap-y-5 md:gap-y-0;
+}
+
+.containerReverse {
+  @apply
+    /* Flexbox & Grid */
+    md:flex-row-reverse;
+}
+
+.demo {
+  @apply
+    /* Sizing */
+    w-full
+    h-full
+    /* Spacing */
+    md:px-6
+    /* Flexbox & Grid */
+    flex flex-col
+    md:justify-center
+    gap-y-12
+    text-center md:text-left;
+}
+
+.header {
+  @apply
+    /* Spacing */
+    space-y-5 md:space-y-6;
+}
+
+.descriptions {
+  @apply
+    /* Spacing */
+    space-y-3 sm:space-y-4
+    /* Typography */
+    font-humnst777-bold;
+}
+
+.description {
+  @apply
+    /* Typography */
+    text-base md:text-xl;
+}
+
+.action {
+  @apply
+    /* Flexbox & Grid */
+    flex justify-center;
+}
+
+.imageContainer {
+  @apply
+    /* Sizing */
+    w-full
+    h-sm md:h-md lg:h-full
+    /* Flexbox & Grid */
+    flex flex-col
+    justify-center;
+}
+
+.image {
+  @apply
+    /* Sizing */
+    w-full
+    h-full
+    /* Background */
+    bg-center
+    bg-cover
+    rounded-[5%]
+    /* Shadow */
+    shadow-lg
+    shadow-zinc-900/20;
+}

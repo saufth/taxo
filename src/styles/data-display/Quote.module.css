@@ -1,0 +1,43 @@
+.container {
+  @apply
+  /* Sizing */
+  max-w-6xl
+  /* Spacing */
+  px-10
+  py-24 md:py-36
+  mx-auto
+  /* Typography */
+  text-center;
+}
+
+.phrase {
+  @apply
+    /* Typography */
+    font-humnst777-bold
+    text-2xl md:text-3xl
+    md:tracking-wide
+    leading-normal md:leading-relaxed;
+}
+
+.author {
+  @apply
+    /* Spacing */
+    mt-12
+    mb-2
+    /* Typography */
+    font-humnst777-bold
+    text-lg md:text-xl;
+}
+
+.legend {
+  @apply
+    /* Typography */
+    text-base md:text-lg;
+}
+
+.quoteAction {
+  @apply
+    /* Flexbox & Grid */
+    mt-12
+    flex justify-center;
+}

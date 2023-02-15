@@ -1,0 +1,54 @@
+.nav {
+  @apply
+    /* Sizing */
+    w-full
+    h-screen
+    /* Spacing */
+    md:pt-24
+    /* Layout */
+    fixed
+    top-0
+    left-0
+    z-60
+    overflow-hidden
+    /* Flexbox & Grid */
+    grid
+    place-content-center
+    gap-y-5 md:gap-y-6
+    /* Typography */
+    text-center;
+}
+
+.label {
+  @apply
+    /* Typography */
+    font-humnst777-bold
+    text-sm
+    text-primary;
+}
+
+.option {
+  @apply
+    /* Typography */
+    text-3xl md:text-4xl;
+}
+
+.action {
+  @apply
+    /* Flexbox & grid */
+    flex
+    justify-center;
+}
+
+.background {
+  @apply
+    /* Sizing */
+    w-full
+    h-screen
+    /* Layout */
+    fixed
+    top-0
+    z-50
+    /* Background */
+    bg-white;
+}

@@ -1,0 +1,26 @@
+.action {
+  @apply
+    /* Sizing */
+    w-64
+    h-12
+    /* Flexbox & Grid */
+    grid
+    place-content-center
+    /* Typography */
+    font-humnst777-bold
+    md:text-[19px]
+    tracking-wide
+    text-white
+    /* Background */
+    bg-gradient-to-br
+    from-taxo-400
+    to-primary
+    /* Border */
+    rounded-sm;
+}
+
+.actionSecondary {
+  @apply
+    /* Background */
+    bg-secondary hover:bg-zinc-900;
+}

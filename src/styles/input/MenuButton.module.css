@@ -1,0 +1,17 @@
+.button {
+  @apply
+    /* Spacing */
+    w-7
+    h-6
+    [&>span]:w-full
+    [&>span]:h-0.75
+    /* Layout */
+    lg:hidden
+    /* Flexbox & Grid */
+    flex
+    flex-col
+    justify-around
+    items-end
+    /* Background */
+    [&>span]:bg-white;
+}

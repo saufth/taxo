@@ -1,0 +1,85 @@
+.solutions {
+  @apply
+    /* Spacing */
+    -mt-12 md:mt-0
+    /* Background */
+    bg-gradient-to-br
+    from-secondary
+    to-primary;
+}
+
+.container {
+  @apply
+    /* Sizing */
+    max-w-9xl
+    /* Spacing */
+    px-10
+    py-24
+    mx-auto
+    space-y-24
+    /* Typography */
+    text-white;
+}
+
+.header {
+  @apply
+    /* Spacing */
+    space-y-8
+    /* Typography */
+    text-center;
+}
+
+.content {
+  @apply
+    /* Spacing */
+    md:pr-0
+    /* Flexbox & Grid */
+    flex flex-col md:flex-row
+    items-stretch;
+}
+
+.list {
+  @apply
+    /* Sizing */
+    md:w-9/20
+    /* Spacing */
+    space-y-6
+    first:pt-6
+    /* Border */
+    first:border-t;
+}
+
+.listItem {
+  @apply
+    /* Spacing */
+    pb-6
+    /* Flexbox & Grid */
+    flex
+    items-center
+    gap-x-5
+    /* Typography */
+    font-humnst777-bold
+    md:text-lg
+    /* Border */
+    border-b
+    border-white;
+}
+
+.image {
+  @apply
+    /* Sizing */
+    w-full md:w-11/20
+    /* Flexbox & Grid */
+    flex flex-col
+    items-center
+    justify-center
+    gap-y-24;
+}
+
+.legend {
+  @apply
+    /* Spacing */
+    md:px-10
+    /* Typography */
+    text-center;
+}

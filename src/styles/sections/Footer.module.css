@@ -1,0 +1,72 @@
+.section {
+  @apply
+    /* Sizing */
+    max-w-9xl
+    /* Spacing */
+    px-10
+    pt-8
+    pb-12
+    mx-auto
+    flex flex-col-reverse md:flex-col
+    gap-y-8
+    /* Border */
+    border-t
+    border-zinc-300;
+}
+
+.foot {
+  @apply
+    /* Sizing */
+    w-full
+    /* Spacing */
+    mx-auto
+    /* Flexbox & Grid */
+    flex
+    flex-col md:flex-row-reverse
+    justify-center md:justify-between
+    items-center
+    gap-y-8;
+}
+
+.footMail {
+  @apply
+    /* Typography */
+    text-2xl
+    underline;
+}
+
+.footAction {
+  @apply
+    /* Spacing */
+    md:hidden;
+}
+
+.rights {
+  @apply
+    /* Flexbox & Grid */
+    flex flex-col md:flex-row
+    items-center
+    gap-4
+    /* Typography */
+    text-sm md:text-base
+    text-center md:text-left;
+}
+
+.nav {
+  @apply
+    /* Sizing */
+    w-full
+    /* Flexbox & Grid */
+    flex flex-col md:flex-row
+    justify-between
+    gap-4
+    /* Typography */
+    text-center
+    text-zinc-600;
+}
+
+.navAction {
+  @apply
+    /* Layout */
+    hidden md:block;
+}

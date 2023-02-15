@@ -1,0 +1,81 @@
+.navbar {
+  @apply
+    /* Layout */
+    fixed
+    top-0
+    left-0
+    right-0
+    z-70
+    /* Animation */
+    transition-colors
+    duration-300;
+}
+
+.navbarScrolled {
+  @apply
+    /* Background */
+    bg-secondary/70
+    /* Filter */
+    backdrop-filter
+    backdrop-blur-2xl
+    backdrop-saturate-200;
+}
+
+.content {
+  @apply
+    /* Sizing */
+    max-w-9xl
+    /* Spacing */
+    px-5 md:px-10
+    py-4 md:py-4
+    mx-auto
+    /* Flexbox & Grid */
+    flex
+    justify-between
+    items-center;
+}
+
+.link {
+  @apply
+    /* Layout */
+    hidden lg:block
+    /* Typogrphy */
+    font-humnst777-bold
+    text-white hover:text-primary
+    /* Animation */
+    transition-colors;
+}
+
+.action {
+  @apply
+    /* Layout */
+    hidden lg:block;
+}
+
+.optionSmall {
+  @apply
+    /* Layout */
+    block lg:hidden;
+}
+
+.logo {
+  @apply
+    /* Sizing */
+    w-auto
+    h-11 md:h-12;
+}
+
+.close {
+  @apply
+    /* Sizing */
+    w-7 md:w-8
+    h-[30px] md:h-8
+    /* Flexbox & Grid */
+    grid
+    place-content-center
+    /* Typography */
+    text-3xl
+    text-secondary
+    /* Interactiviry */
+    cursor-pointer;
+}
