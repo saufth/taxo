@@ -1,5 +1,5 @@
 // Styles
-import styles from '../../styles/pages/WhyPage.module.css'
+import styles from '../styles/pages/WhyPage.module.css'
 
 /**
 * This page define the reason why of the organization
