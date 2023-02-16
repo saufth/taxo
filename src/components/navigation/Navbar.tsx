@@ -38,7 +38,7 @@ const Navbar = () => {
         <div className={styles.content}>
           <NextLink href={navigationConfig[0].href} onClick={closeToggle}>
             <Image
-              src='/images/logo-white.svg'
+              src='/images/logo-text-white.svg'
               alt='Keyperspot logotype'
               width={275}
               height={64}

@@ -41,7 +41,7 @@
     hidden lg:block
     /* Typogrphy */
     font-humnst777-bold
-    text-white hover:text-primary
+    text-white hover:text-taxo-300
     /* Animation */
     transition-colors;
 }
