@@ -24,12 +24,13 @@ const Navbar = () => {
   useMotionValueEvent(scrollY, 'change', (latestScrollY) => {
     setIsScrolled(latestScrollY > 1)
   })
-  const navbarStyle = `${styles.navbar} ${isScrolled ? styles.navbarScrolled : ''}`
+  const navbarStyle = `${styles.navbar} ${isScrolled ? styles.navbarBackhround : ''}`
   // Menu animation
   const [isOpen, toggle] = useCycle(false, true)
-  /** Handle the Menu state */
-  const handleToggle = () => { toggle() }
-  /** Close the Menu but not open */
+  const handleToggle = () => {
+    toggle()
+    setIsScrolled(true)
+  }
   const closeToggle = () => { isOpen && toggle() }
 
   return (

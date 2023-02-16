@@ -11,7 +11,7 @@
     duration-300;
 }
 
-.navbarScrolled {
+.navbarBackhround {
   @apply
     /* Background */
     bg-secondary/70
@@ -75,7 +75,7 @@
     place-content-center
     /* Typography */
     text-3xl
-    text-secondary
+    text-white
     /* Interactiviry */
     cursor-pointer;
 }
