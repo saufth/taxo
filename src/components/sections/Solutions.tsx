@@ -2,6 +2,7 @@
 import Image from 'next/image'
 // Styles
 import styles from '../../styles/sections/Solutions.module.css'
+import CallToAction from '../navigation/CallToAction'
 
 /** The solutions of the organization configuration */
 const solutionsConfig = [
@@ -68,11 +69,14 @@ const Solutions = () => {
             style={{ backgroundImage: 'url(/images/sections/home-solutions.jpg)' }}
           />
         </div>
-        <p className={styles.legend}>
-          Constantemente salimos de la zona de confort que impone el mercado, con el único
-          objetivo de que nuestros clientes logren alcanzar su máximo potencial. Date la
-          oportunidad de conocernos. Te sorprenderás.
-        </p>
+        <div className={styles.legend}>
+          <p>
+            Constantemente salimos de la zona de confort que impone el mercado, con el único
+            objetivo de que nuestros clientes logren alcanzar su máximo potencial. Date la
+            oportunidad de conocernos. Te sorprenderás.
+          </p>
+          <CallToAction theme='secondary' />
+        </div>
       </div>
     </section>
   )

@@ -22,5 +22,8 @@
 .actionSecondary {
   @apply
     /* Background */
-    bg-secondary hover:bg-zinc-900;
+    from-taxo-100
+    to-taxo-100
+    /* Typography */
+    text-secondary;
 }

@@ -74,6 +74,10 @@
   @apply
     /* Spacing */
     md:pl-10 md:pr-20
+    /* Flexbox & Grid */
+    flex flex-col
+    items-center
+    gap-y-12
     /* Typography */
     text-center;
 }

@@ -1,10 +1,11 @@
 // Components
 import NextLink from 'next/link'
+// Config
+import { callToActionConfig } from '../../modules/navigation/config'
 // Types
 import { Themeable } from '../../types/theme'
 // Styles
 import styles from '../../styles/navigation/CallToAction.module.css'
-import { callToActionConfig } from '../../modules/navigation/config'
 
 /**
  * The primary call to actions of the application
@@ -14,7 +15,7 @@ import { callToActionConfig } from '../../modules/navigation/config'
  */
 const CallToAction = ({ theme = 'primary' }: Themeable) => {
   // Styles
-  const themeStyle = theme === 'secondary' ? styles.actionSecondary : ''
+  const themeStyle = theme !== 'primary' ? styles.actionSecondary : ''
   const actionStyle = `${styles.action} ${themeStyle}`
 
   return (
