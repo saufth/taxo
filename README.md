@@ -244,4 +244,4 @@ Open [http://localhost:3000/](http://localhost:3000/) with your browser to see t
 
 ## Licence
 
-Copyright © 2022 Keyperspot. All rights reserved.
+Copyright © 2022 Taxo Contable. All rights reserved.
