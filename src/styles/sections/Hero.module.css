@@ -1,5 +1,13 @@
 .hero {
   @apply
+    /* Background */
+    bg-home-hero-mobile sm:bg-home-hero
+    bg-center
+    bg-cover;
+}
+
+.container {
+  @apply
     /* Sizing */
     max-w-9xl
     h-auto md:h-2xl
@@ -7,11 +15,7 @@
     mx-auto
     /* Flexbox & Grid */
     flex
-    flex-col md:flex-row
-    /* Background */
-    bg-home-hero-mobile sm:bg-home-hero
-    bg-center
-    bg-cover;
+    flex-col md:flex-row;
 }
 
 .content {

@@ -1,5 +1,4 @@
 // Components
-// import CallToAction from '../navigation/CallToAction'
 import Image from 'next/image'
 // Styles
 import styles from '../../styles/sections/Solutions.module.css'
@@ -7,28 +6,28 @@ import styles from '../../styles/sections/Solutions.module.css'
 /** The solutions of the organization configuration */
 const solutionsConfig = [
   {
-    text: 'Planeación estratégica para RR.HH.',
-    icon: 'dialog'
+    text: 'Lorem ipsum dolor sit amet sit amet dolor',
+    icon: 'tax1'
   },
   {
-    text: 'Branding para trabajadores',
-    icon: 'user'
+    text: 'Lorem ipsum dolor sit amet sit amet dolor',
+    icon: 'tax2'
   },
   {
-    text: 'Implementación de KPI+OKR+BSC',
-    icon: 'results'
+    text: 'Lorem ipsum dolor sit amet sit amet dolor',
+    icon: 'tax3'
   },
   {
-    text: 'Reclutamiento y selección de personal',
-    icon: 'choice'
+    text: 'Lorem ipsum dolor sit amet sit amet dolor',
+    icon: 'tax4'
   },
   {
-    text: 'Pruebas de polígrafo y psicométricas',
-    icon: 'test'
+    text: 'Lorem ipsum dolor sit amet sit amet dolor',
+    icon: 'tax5'
   },
   {
-    text: 'Estudios socioeconómicos',
-    icon: 'charts'
+    text: 'Lorem ipsum dolor sit amet sit amet dolor',
+    icon: 'tax6'
   }
 ]
 
@@ -57,13 +56,17 @@ const Solutions = () => {
                 <Image
                   src={`/images/icons/${service.icon}.svg`}
                   alt={service.icon}
-                  width={36}
-                  height={36}
+                  width={48}
+                  height={48}
                 />
                 {service.text}
               </li>
             ))}
           </ul>
+          <div
+            className={styles.image}
+            style={{ backgroundImage: 'url(/images/sections/home-solutions.jpg)' }}
+          />
         </div>
         <p className={styles.legend}>
           Constantemente salimos de la zona de confort que impone el mercado, con el único

@@ -2,8 +2,6 @@
 import Image from 'next/image'
 // Types
 import { IconProps } from '../../types/data-display'
-// Styles
-// import styles from '../../styles/data-display/IconProps.module.css'
 
 /**
 * Using to display a simple icon
