@@ -32,12 +32,15 @@
 .legend {
   @apply
     /* Typography */
+    text-secondary
     text-base md:text-lg;
 }
 
 .quoteAction {
   @apply
+    /* Layout */
+    hidden
     /* Flexbox & Grid */
     mt-12
-    flex justify-center;
+    md:flex justify-center;
 }

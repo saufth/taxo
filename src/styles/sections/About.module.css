@@ -3,7 +3,7 @@
     /* Sizing */
     max-w-9xl
     /* Spacing */
-    px-10
+    px-5 md:px-10
     mx-auto
     /* Spacing */
     pt-24
@@ -18,9 +18,15 @@
     text-center;
 }
 
+.heading {
+  @apply
+    /* Typography */
+    text-primary;
+}
+
 .showcase {
   @apply
     /* Spacing */
     mt-24 md:mt-36
-    space-y-12 md:space-y-36;
+    space-y-12 md:space-y-24;
 }

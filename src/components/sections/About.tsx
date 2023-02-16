@@ -15,7 +15,7 @@ const About = ({ id, heading, description, showcases, action, link }: AboutProps
   return (
     <section id={id} className={styles.section}>
       <header className={styles.header}>
-        <h2>{heading}</h2>
+        <h2 className={styles.heading}>{heading}</h2>
         <p>{description}</p>
       </header>
       <div className={styles.showcase}>

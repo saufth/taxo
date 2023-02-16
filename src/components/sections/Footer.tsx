@@ -17,11 +17,11 @@ const Footer = () => {
       <div className={styles.foot}>
         <div className={styles.footMail}>
           <NextLink
-            href='mailto:info@keyperspot.com'
+            href='mailto:info@taxocontable.com'
             target='_blank'
             rel='noreferrer'
           >
-            info@keyperspot.com
+            info@taxocontable.com
           </NextLink>
         </div>
         <div className={styles.footAction}>
@@ -30,13 +30,13 @@ const Footer = () => {
         <div className={styles.rights}>
           <NextLink href='/'>
             <Image
-              src='/images/logo-vertical.svg'
-              alt='Keyperspot logotype'
+              src='/images/logo.svg'
+              alt='Taxo Contable logotype'
               width={175}
               height={32}
             />
           </NextLink>
-          Copyright 2023 Keyperspot. All rights reserved.
+          Copyright 2023 Taxo Contable. All rights reserved.
         </div>
       </div>
       <nav className={styles.nav}>

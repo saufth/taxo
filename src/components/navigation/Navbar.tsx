@@ -40,7 +40,7 @@ const Navbar = () => {
           <NextLink href={navigationConfig[0].href} onClick={closeToggle}>
             <Image
               src='/images/logo-text-white.svg'
-              alt='Keyperspot logotype'
+              alt='Taxo Contable logotype'
               width={275}
               height={64}
               priority

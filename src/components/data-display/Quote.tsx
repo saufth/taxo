@@ -1,9 +1,9 @@
 // Components
 import CallToAction from '../navigation/CallToAction'
-// Styles
-import styles from '../../styles/data-display/Quote.module.css'
 // Types
 import { QuoteProps } from '../../types/data-display'
+// Styles
+import styles from '../../styles/data-display/Quote.module.css'
 
 /**
 * Used for diplay a phrase with author and a legend
