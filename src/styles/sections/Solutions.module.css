@@ -13,7 +13,7 @@
     /* Sizing */
     max-w-9xl
     /* Spacing */
-    px-10
+    px-5 md:px-10
     py-24
     mx-auto
     space-y-24
@@ -63,17 +63,6 @@
     /* Border */
     border-b
     border-white;
-}
-
-.image {
-  @apply
-    /* Sizing */
-    w-full md:w-11/20
-    /* Flexbox & Grid */
-    flex flex-col
-    items-center
-    justify-center
-    gap-y-24;
 }
 
 .legend {

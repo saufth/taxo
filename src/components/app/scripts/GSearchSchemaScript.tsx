@@ -9,7 +9,7 @@ const baseUrl = process.env.HOST
 /**
  * The name of the organization
  */
-const organization = 'keyperspot'
+const organization = 'Taxo Contable'
 
 /**
  * Google seach scheme

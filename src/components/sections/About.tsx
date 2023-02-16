@@ -16,7 +16,7 @@ const About = ({ id, heading, description, showcases, action, link }: AboutProps
     <section id={id} className={styles.section}>
       <header className={styles.header}>
         <h2 className={styles.heading}>{heading}</h2>
-        <p>{description}</p>
+        <p className={styles.description}>{description}</p>
       </header>
       <div className={styles.showcase}>
         {showcases.map((about, key) => (

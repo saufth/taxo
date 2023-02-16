@@ -47,7 +47,7 @@
   p {
     @apply
       /* Typography */
-      font-humnst777-bold
+      font-humnst777
       text-lg md:text-xl lg:text-2xl;
   }
 

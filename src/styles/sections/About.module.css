@@ -24,6 +24,12 @@
     text-primary;
 }
 
+.description {
+  @apply
+    /* Typography */
+    text-secondary;
+}
+
 .showcase {
   @apply
     /* Spacing */

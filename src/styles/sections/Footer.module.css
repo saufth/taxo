@@ -3,7 +3,7 @@
     /* Sizing */
     max-w-9xl
     /* Spacing */
-    px-10
+    px-5 md:px-10
     pt-8
     pb-12
     mx-auto

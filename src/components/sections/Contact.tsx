@@ -35,10 +35,10 @@ const Contact = () => {
     <section className={styles.section}>
       <div className={styles.header}>
         <h1 className={styles.heading}>
-          ¿Tienes algun proyecto en mente?
+          ¿Problemas con los números?
         </h1>
         <p className={styles.description}>
-          Pongamonos en contacto
+          Pongamosnos en contacto
         </p>
       </div>
       <form

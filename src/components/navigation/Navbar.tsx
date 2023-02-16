@@ -5,13 +5,14 @@ import NextLink from 'next/link'
 import Menu from './Menu'
 import MenuButton from '../input/MenuButton'
 // React
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 // Animation
 import { useCycle, useMotionValueEvent, useScroll } from 'framer-motion'
 // Config
 import { navigationConfig } from '../../modules/navigation/config'
 // Styles
 import styles from '../../styles/navigation/Navbar.module.css'
+import { useRouter } from 'next/router'
 
 /**
  * The main navbar of application
@@ -19,12 +20,17 @@ import styles from '../../styles/navigation/Navbar.module.css'
  */
 const Navbar = () => {
   // Scroll animation
-  const [isScrolled, setIsScrolled] = useState(false)
+  const { asPath } = useRouter()
+  const isHomePage = asPath === '/'
+  const [isScrolled, setIsScrolled] = useState(!isHomePage)
   const { scrollY } = useScroll()
   useMotionValueEvent(scrollY, 'change', (latestScrollY) => {
-    setIsScrolled(latestScrollY > 1)
+    if (isHomePage) setIsScrolled(latestScrollY > 1)
   })
   const navbarStyle = `${styles.navbar} ${isScrolled ? styles.navbarBackhround : ''}`
+  useEffect(() => {
+    setIsScrolled(!isHomePage)
+  }, [isHomePage])
   // Menu animation
   const [isOpen, toggle] = useCycle(false, true)
   const handleToggle = () => {

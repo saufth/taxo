@@ -9,25 +9,22 @@ import { ParentProps } from '../../types/layout'
 /** The base URL of the application */
 const baseUrl = process.env.HOST
 /** The name of the organization */
-const organization = 'Keyperspot'
+const organization = 'Taxo Contable'
 /** The desciption of the organization */
 const description = 'Potenciar el factor humano de las empresas con visión, a fin de evolucionar hacia un legado de progreso y verdad'
 /** The keyword list as string */
 const keywords = String([
-  'keyperspot',
-  'recursos humanos',
-  'reclutamiento de personal',
-  'pruebas de polígrafo',
-  'pruebas psicometricas',
-  'elaboracion de kpi',
-  'elaboracion de okr',
-  'elaboracion de obc',
-  'documentacion de procesos'
+  'taxo contable',
+  'contabilidad',
+  'servicios contables',
+  'aditoria contable',
+  'autidoria financiera',
+  'estados financieros'
 ])
 /** Is used as a cover image for social networks */
 const coverImageUrl = `${baseUrl}cover.jpg`
 /** Twitter account */
-const twitter = '@keyperspot'
+const twitter = '@taxocontable'
 
 export default function AppLayout ({ children } : ParentProps) {
   return (
@@ -35,7 +32,7 @@ export default function AppLayout ({ children } : ParentProps) {
       <Head>
         <meta charSet='utf-8' />
         <meta content='width=device-width, initial-scale=1' name='viewport' />
-        <title>Tu activo constante – Keyperspot</title>
+        <title>Taxo Contable</title>
         <link rel='icon' href='/favicon.ico' />
         <link rel='icon' type='image/png' sizes='16x16' href='/favicon-16x16.png' />
         <link rel='icon' type='image/png' sizes='32x32' href='/favicon-32x32.png' />

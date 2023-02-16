@@ -1,5 +1,5 @@
 // Components
-import CallToAction from '../navigation/CallToAction'
+// import CallToAction from '../navigation/CallToAction'
 import Image from 'next/image'
 // Styles
 import styles from '../../styles/sections/Solutions.module.css'
@@ -29,38 +29,6 @@ const solutionsConfig = [
   {
     text: 'Estudios socioeconómicos',
     icon: 'charts'
-  },
-  {
-    text: 'Trámite jurídico para contratación y terminación laboral',
-    icon: 'list'
-  },
-  {
-    text: 'Generación y resguardo de expedientes laborales',
-    icon: 'folder'
-  },
-  {
-    text: 'Negociación de liquidaciones',
-    icon: 'discussion'
-  },
-  {
-    text: 'Cálculo de finiquitos y liquidaciones',
-    icon: 'scale'
-  },
-  {
-    text: 'Monitoreo de la salud física y psicológica de los trabajadores',
-    icon: 'healthy'
-  },
-  {
-    text: 'Cursos de capacitación para el desarrollo personal y profesional de los trabajadores',
-    icon: 'rocket'
-  },
-  {
-    text: 'Planes para el retiro o jubilación de los colaboradores',
-    icon: 'pointers'
-  },
-  {
-    text: 'Implementación de software especializado en RR.HH.',
-    icon: 'software'
   }
 ]
 
@@ -96,15 +64,6 @@ const Solutions = () => {
               </li>
             ))}
           </ul>
-          <div className={styles.image}>
-            <Image
-              src='/images/sections/home-solutions.png'
-              alt='Keyperspot solutions'
-              width={582}
-              height={768}
-            />
-            <CallToAction theme='secondary' />
-          </div>
         </div>
         <p className={styles.legend}>
           Constantemente salimos de la zona de confort que impone el mercado, con el único

@@ -3,8 +3,9 @@
     /* Sizing */
     max-w-4xl
     /* Spacing */
-    px-10
+    px-5 md:px-10
     pt-36 md:pt-48
+    pb-24
     mx-auto
     space-y-12;
 }
@@ -50,7 +51,7 @@
     /* Baxkground */
     bg-zinc-200
     /* Border */
-    rounded-xl
+    rounded-sm
     /* Interactivity */
     resize-none;
 }
@@ -64,9 +65,10 @@
     font-humnst777-bold
     text-white
     /* Background */
+    text-lg
     bg-primary
     /* Border */
-    rounded-3xl;
+    rounded-sm;
 }
 
 .options {

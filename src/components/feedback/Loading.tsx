@@ -40,7 +40,7 @@ const Loading = () => {
       <div className={styles.loading}>
         <Image
           src='/images/logomark.svg'
-          alt='Keyperspot logo'
+          alt='Taxo Contable logo'
           width={240}
           height={240}
         />

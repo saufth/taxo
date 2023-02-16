@@ -65,7 +65,7 @@ const Menu = ({ isOpen, action }: MenuProps) => {
       custom={width}
     >
       <motion.nav
-        aria-label='Keyperspot directorio'
+        aria-label='Taxo Contable directorio'
         className={styles.nav}
         variants={navVariants}
       >
