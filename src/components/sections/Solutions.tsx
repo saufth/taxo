@@ -64,10 +64,7 @@ const Solutions = () => {
               </li>
             ))}
           </ul>
-          <div
-            className={styles.image}
-            style={{ backgroundImage: 'url(/images/sections/home-solutions.jpg)' }}
-          />
+          <div className={styles.image} />
         </div>
         <div className={styles.legend}>
           <p>

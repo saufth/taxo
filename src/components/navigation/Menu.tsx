@@ -80,7 +80,7 @@ const Menu = ({ isOpen, action }: MenuProps) => {
         ))}
 
         <div className={styles.action} onClick={action}>
-          <CallToAction theme='secondary' />
+          <CallToAction />
         </div>
       </motion.nav>
 

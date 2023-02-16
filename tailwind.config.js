@@ -77,7 +77,8 @@ module.exports = {
       },
       backgroundImage: {
         'home-hero': 'url(/images/sections/home-hero.jpg)',
-        'home-hero-mobile': 'url(/images/sections/home-hero-mobile.jpg)'
+        'home-hero-mobile': 'url(/images/sections/home-hero-mobile.jpg)',
+        'home-solutions': 'url(url(/images/sections/home-solutions.jpg))'
       },
       borderRadius: {
         '11%': '11%',
