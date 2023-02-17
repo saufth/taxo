@@ -1,0 +1,20 @@
+.section {
+  @apply
+    max-w-5xl
+    pt-32 md:pt-40
+    pb-16 md:pb-24
+    px-5 md:px-10
+    mx-auto
+}
+
+.header {
+  @apply
+    /* Spacing */
+    space-y-6
+}
+
+.description {
+  @apply
+    /* Typography */
+    text-secondary;
+}

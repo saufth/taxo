@@ -17,7 +17,7 @@ export const navigationConfig: LinkProps[] = [
   },
   {
     children: 'Razón de ser',
-    href: '/reason-why'
+    href: '/why'
   }
 ]
 

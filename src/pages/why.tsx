@@ -7,16 +7,18 @@ import styles from '../styles/pages/WhyPage.module.css'
 */
 const WhyPage = () => {
   return (
-    <div className={styles.div}>
-      <header>
-        <h1>
+    <section className={styles.section}>
+      <header className={styles.header}>
+        <h2>
           Lorem ipsum
-        </h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis asperiores illo qui eum. Nemo dicta pariatur praesentium itaque, ut maxime nisi culpa numquam officiis hic non assumenda quod ea eaque!
+        </h2>
+        <p className={styles.description}>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis asperiores illo
+          qui eum. Nemo dicta pariatur praesentium itaque, ut maxime nisi culpa numquam officiis
+          hic non assumenda quod ea eaque!
         </p>
       </header>
-    </div>
+    </section>
   )
 }
 
